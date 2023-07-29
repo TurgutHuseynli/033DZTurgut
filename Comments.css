@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.screen{
+    height: 100%;
+    background: linear-gradient(to bottom, red, pink);
+}
+.cont{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.cont:first-child{
+    padding-top: 0;
+}
+.comment-info{
+    margin-left: 20px;
+}
+.mail{
+    font-weight: bold;
+}
+i{
+    margin-right: 20px;
+}
